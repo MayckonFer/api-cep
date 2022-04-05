@@ -1,0 +1,24 @@
+.containerHeader {
+  height: 7rem;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #e9e9e9;
+
+  .contentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+
+    .titleHeader {
+      color: rgb(110, 128, 185);
+      font-size: 4rem;
+      text-align: center;
+      padding-top: 0.7rem;
+    }
+  }
+}
